@@ -1,0 +1,52 @@
+.login h1 a {
+    background-image: url("../img/Atlas-Logo-white.png");
+    padding-bottom: 15px;
+    background-size:100%;
+    width:60%;
+}
+
+body.login {
+ background-image: url('../img/login-area-bg.jpg') !important;
+ background-size: cover;
+}
+
+.login #backtoblog a, .login #nav a {
+	 color: #000 !important;
+}
+
+.login .message {
+	background-color:rgba(255,255,255,0.9);
+	border-left: 4px solid #E31936;
+}
+
+.login form {
+	background-color: rgba(255,255,255,0.9);
+	padding:26px 24px 30px;
+}
+.login label {
+	color: #808285;
+}
+#login {
+	padding:1% 0 0;
+}
+
+.login p#nav, .login p#backtoblog {
+	background: rgba(255,255,255,0.9);
+	display: inline-block;
+	padding: 0.5em;
+}
+
+body.login div#login form#loginform p.submit input#wp-submit {
+	border-radius: 0;
+	width: 100%;
+	height: 100%;
+	margin-top: 5px;
+	padding:0.5em;
+	background-color:#E31936; 
+	border-radius: none;
+}
+body.login div#login form#loginform input#user_login,
+body.login div#login form#loginform input#user_pass {
+	background:rgba(0,0,0,0.2);
+	color: #fff;
+}

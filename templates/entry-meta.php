@@ -1,0 +1,2 @@
+<p class="byline author vcard"><time class="published" datetime="<?php echo get_the_time('c'); ?>"><img src="<?php echo get_stylesheet_directory_uri();?>/assets/img/blog-icon.png" class="blog-icon" /> Posted on <?php echo get_the_date(); ?></time>
+<?php echo __('by', 'roots'); ?> <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>" rel="author" class="fn"><?php echo get_the_author(); ?></a></p>
